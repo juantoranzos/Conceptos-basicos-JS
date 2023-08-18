@@ -10,23 +10,26 @@ while(i<=10){
 }
 
 
-// do-while
-/* do{
-    lineas de codigo
-    cambiar la condicion logica 
- }while(condicion logica)
- */
+// do while 
+/*
+do{
+  todas las lineas de codigo
+  cambiar la condicion logica
+}while(condicion logica)
+
+*/
 let contador = 1;
-do {
-    document.write(`<p>Este es el parrafo con do-while N:${contador}</p>`);
-    contador++;
-} while (contador<=10);
-//for
- /*
- for( let index =1; condicion logica;modificar la variable que controla la condicion){
-    todo el codigo que necesitemos ejecutar varias veces
+do{
+  document.write(`<p> Este es el parrafo con do-while N:${contador} </p>`);
+  contador++;
+}while(contador <= 10)
+
+// bucle for
+/**
+ for(let index = 1 ; condicion logica; modificar la variale que controla la condicion){
+  todo el codigo que necesite ejecutar varias veces.
  }
  */
-for (let numeroImpar=1; numeroImpar<=10; numeroImpar+=2){
-    document.write(`<p>Este es el parrafo con For N:${numeroImpar}</p>`);
+for(let impar=1; impar<=10; impar+=2){
+  document.write(`<p> Este es el parrafo con for N:${impar} </p>`)
 }
