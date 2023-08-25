@@ -3,11 +3,15 @@ const filas = parseInt(prompt('ingrese un numero de filas'));
 const columnas =parseInt(prompt('ingrese un numero de columnas'));
 let numeroCeldas = filas * columnas
 document.write(`  <table><tbody>`)
-for(let indiceFilas = 0 ; indiceFilas < filas ; indiceFilas++)
-document.write(` 
- <tr>
-<td>1</td>
-<td>2</td>
-</tr>
-`)
+for(let indiceFilas = 0 ; indiceFilas < filas ; indiceFilas++){
+    document.write('<tr>')
+    for(indiceColumna = 0; indiceColumna < columnas ; indiceColumna++){
+        document.write('<td>1</td>')
+    }
+   
+    document.write('</tr>')
+    
+}
+
+
 document.write(` </tbody></table>`)
