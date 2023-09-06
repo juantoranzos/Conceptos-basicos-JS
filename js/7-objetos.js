@@ -43,3 +43,5 @@ console.log(pelicula)
 
 console.log(pelicula.hasOwnProperty('region'))
 console.log(pelicula.hasOwnProperty('id'))
+
+//definir un prototipo
